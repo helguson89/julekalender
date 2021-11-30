@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Luke 3</title>
+		<link rel="stylesheet" href="d3.css" />
+		<script src="d3.js"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="top">
+				<h1>I dag er den store juletre-pyntedagen!</h1>
+			</div>
+			<div class="left">
+				<svg height="500" width="400">
+					<polygon
+						points="165.6,57.2 182.9,48 200.3,57.2 197,37.8 211.1,24.1 191.6,21.3 182.9,3.7 174.2,21.3 154.8,24.1 168.9,37.8 "
+						class="star"
+					/>
+
+					<polygon
+						points="160.7,403.2 160.7,403.2 205.1,403.2 205.1,403.2 365.9,403.2 283.2,320.6 352,320.6 267.3,235.8 323.8,235.8 
+        253.2,165.1 290.9,165.1 182.9,57.2 74.9,165.1 112.7,165.1 42,235.8 98.6,235.8 13.8,320.6 82.6,320.6 0,403.2 "
+						class="tree"
+					/>
+
+					<rect x="160.4" y="403.2" width="45" height="83.3" class="trunk" />
+				</svg>
+			</div>
+			<!--left-->
+			<div class="right">
+				<div class="right-block">
+					<p class="title">Her kan du dekorere treet!</p>
+					<p>Hvilken farge skal stjernen ha?</p>
+					<div class="star-color">
+						<button id="greenButton">Grønn</button>
+						<button id="yellowButton">Gul</button>
+						<button id="pinkButton">Rosa</button>
+					</div>
+					<!--star color-->
+					<p>Hvilken farge skal treet ha?</p>
+					<div class="tree-color">
+						<button id="indigoButton">Indigo</button>
+						<button id="darkgreenButton">Grønn</button>
+						<button id="orangeButton">Oransje</button>
+					</div>
+					<!--tree color-->
+					<p>Hvilken farge skal stammen ha?</p>
+					<div class="trunk-color">
+                        <button id="brownButton">Brun</button>
+						<button id="greyButton">Sølv</button>
+						<button id="goldButton">Gull</button>
+					</div>
+					<!--trunk color-->
+
+				</div>
+
+                <button id="sendInn" onclick="message()">Send inn forslag</button>
+				<!--right block-->
+			</div>
+			<!--end of right -->
+		</div>
+		<!--wrapper-->
+	</body>
+</html>

@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script);
+
+body {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/62105/xmas.jpg");
+  color: #fff;
+  font-family: 'Oleo Script', cursive;
+  padding: 20px;
+  font-weight: 400;
+
+}
+.wrapper{
+    display:block;
+    width:100%;
+  }
+  .top{
+    display:block;
+    width:100%;
+    text-align:center;
+  }
+  .left{
+    display:block;
+    float:left;
+    width:65%;
+    padding-left:10%;
+  }
+  .right{
+    display:block;
+    float:left;
+    width:25%;
+  }
+  .right-block{
+    padding:20px;
+  }
+  p.title{
+    color:#000;
+    font-size:1.5em;
+  }
+  
+  .star-color select, .tree-color select, .trunk-color select {
+      width: 100%;
+      padding: 10px;
+      border: 2px solid #eee;
+      background-color: #fff;
+      border-radius: 6px;
+      -moz-appearance: none;
+      -webkit-appearance: none;
+  }
+  
+  /* button */
+  .send{
+    width:100%;
+    display:inline-block;
+    padding-top:40px;
+  }
+  .proceed-btn {
+      display:block;
+      cursor: pointer;
+      font-size: 16px;
+      width: 100%;
+      float:left;
+      padding:10px;
+      border-color: transparent;
+      border-radius: 6px;
+      background: #57DEBF;
+  }
+  .proceed-btn a {
+      text-decoration: none;
+  }
+   .proceed-btn a {
+      color: #fff;
+  }
+  canvas{
+    border:4px solid lime;
+  }
+
+  button {
+      background-color: darkgreen;
+      border-radius: 20%;
+      height: 40px;
+      color: khaki;
+  }
+
+  #sendInn{
+      margin-left: 40px;
+      background-color: gold;
+      color: darkslategray;
+  }
+
+  

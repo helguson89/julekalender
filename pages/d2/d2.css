@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script);
+
+body {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/62105/xmas.jpg");
+  color: #fff;
+  font-family: 'Oleo Script', cursive;
+  padding: 20px;
+  font-weight: 400;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 500px;
+}
+
+img{
+    border: 2px solid white;
+    height: 150px;
+    width: 150px;
+}
