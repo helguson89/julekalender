@@ -27,7 +27,7 @@ var dato = new Date()
 
 function func_d1(){
 
-    lukedato = new Date('December 1, 2020 00:00:01')
+    lukedato = new Date('December 1, 2021 00:00:01')
     if(dato > lukedato){
     window.open("pages/d3/d3.html")
     } else {
