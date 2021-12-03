@@ -1,0 +1,18 @@
+body{
+    background-image: url('bakgrunn.jpg');
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+div{
+    width: 50vw;
+margin-top: 10vw;
+margin-left: 10vw;
+font-size: 1.5rem;
+}
+
+span{
+    font-size: 7rem;
+    color: deeppink;
+}

@@ -1,0 +1,12 @@
+html, body {
+	margin: 0;
+	overflow: hidden;
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/62105/xmas.jpg");
+    color: #fff;
+    font-family: 'Oleo Script', cursive;
+	height: 100%;
+}
+
+h1{
+    text-align: center;
+}
