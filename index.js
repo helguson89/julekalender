@@ -74,7 +74,7 @@ function func_d5(){
 function func_d6(){
     lukedato = new Date('December 6, 2021 00:00:01')
     if(dato > lukedato){
-    window.open("pages/d6/d6.html")
+    window.open("pages/d7/d7.html")
     } else {
         alert("Godt forsøk, men du må vente din luring!")
     }
@@ -83,7 +83,7 @@ function func_d6(){
 function func_d7(){
     lukedato = new Date('December 7, 2021 00:00:01')
     if(dato > lukedato){
-    window.open("pages/d7/d7.html")
+    window.open("pages/d6/d6.html")
     } else {
         alert("Godt forsøk, men du må vente din luring!")
     }
