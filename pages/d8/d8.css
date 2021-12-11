@@ -42,7 +42,7 @@
 #donut{
     width:120px;
     height:120px;
-    border:100px solid #FFCC66;
+    border:100px solid #e98477;
     background-color:transparent;
     border-radius:160px;
     margin-top:350px;
@@ -128,12 +128,12 @@
 }
 body{
     width:1440px;
-    background-color:#E6E6E6;
+    background-color:#ca1b1b;
 }
 #cardHeader{
     width:600px;
     height:60px;
-    background-color:#FF7519;
+    background-color:#e98477;
     position:absolute;
     margin-top:-60px;
     color:white;
@@ -153,7 +153,7 @@ body{
 }
 #card{
     width:600px;
-    background-color:#FFA319;
+    background-color:#e7b0a8;
     height:510px;
     margin-left:412px;
     margin-top:8%;
