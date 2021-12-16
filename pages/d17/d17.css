@@ -1,0 +1,40 @@
+h1{
+    margin-left: 10vw;
+}
+
+body{
+    background-color: cadetblue;
+}
+#male{
+    max-width: 100px;
+    height: auto;
+}
+
+.hovedcontainer{
+    display: flex;
+    align-items: center;
+    padding-left: 10vw;
+}
+
+.te{
+    max-width: 100px;
+    height: auto;
+}
+
+.papir{
+    max-width: 100px;
+    height: auto;
+}
+p{
+    padding-left: 10vw;
+    font-size: 40px;
+}
+
+.bokstav{
+    font-size: 40px;
+    margin: 10px;
+}
+
+.tenor-gif-embed{
+    padding-left: 10vw;
+}
