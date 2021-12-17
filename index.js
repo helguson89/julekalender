@@ -182,7 +182,7 @@ function func_d17(){
 function func_d18(){
     lukedato = new Date('December 18, 2021 00:00:01')
     if(dato > lukedato){
-    window.open("pages/d18/d18.html")
+    window.open("pages/d8/d8.html")
     } else {
         alert("Godt forsøk, men du må vente din luring!")
     }
