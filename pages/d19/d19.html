@@ -8,6 +8,97 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <h1>Jule-adjektivshistorie</h1>
+     
+    <ul>
+      <li>Farge <input type="text" id="farge1"></li>
+      <li>Adjektiv (i form gode, snille, osv): <input type="text" id="adjektiv1"></li>
+      <li>Substantiv ubestemt: <input type="text" id="ting1"></li>
+      <li>Verb presens (løper, hopper osv): <input type="text" id="verb1"></li>
+      <li>Nasjonalitet flertall (f eks norske): <input type="text" id="nasjonalitet"></li>
+      <li>Substantiv ubestemt: <input type="text" id="substantiv1"></li>
+      <li>Person: <input type="text" id="person1"></li>
+      <li>Sted: <input type="text" id="sted1"></li>
+      <li>Element (vann, land, ild, is): <input type="text" id="element1"></li>
+      <li>Person: <input type="text" id="person2"></li>
+      <li>Verb infinitiv (å løpe, å hoppe...ikke skriv å foran): <input type="text" id="verb2"></li>
+    </ul>
+     
+    <button id="lib-button">Generer historie</button>
+      
+    <p>Historie: 
     
+    </p>
+    <p><span id="strofe1"></span></p>
+    <p><span id="strofe2"></span></p>
+    <p><span id="strofe3"></span></p>
+    <p><span id="strofe4"></span></p>
+    <p><span id="strofe5"></span></p>
+    <p><span id="fixed1"></span></p>
+    <p><span id="strofe6"></span></p>
+    <br>
+    <p><span id="strofe7"></span></p>
+    <p><span id="strofe8"></span></p>
+    <p><span id="strofe9"></span></p>
+    <p><span id="fixed2"></span></p>
+    <br>
+    <p><span id="strofe10"></span></p>
+    <p><span id="strofe11"></span></p>
+    <p><span id="strofe12"></span></p>
+    <p><span id="strofe13"></span></p>
+ 
+    <script>
+        var libButton = document.getElementById('lib-button');
+        
+        var libIt = function() {
+            var strofe1 = document.getElementById("strofe1");
+            var strofe2 = document.getElementById("strofe2");
+            var strofe3 = document.getElementById("strofe3");
+            var strofe4 = document.getElementById("strofe4");
+            var strofe5 = document.getElementById("strofe5");
+            var strofe6 = document.getElementById("strofe6");
+            var strofe7 = document.getElementById("strofe7");
+            var strofe8 = document.getElementById("strofe8");
+            var strofe9 = document.getElementById("strofe9");
+            var strofe10 = document.getElementById("strofe10");
+            var strofe11 = document.getElementById("strofe11");
+            var strofe12 = document.getElementById("strofe12");
+            var strofe13 = document.getElementById("strofe13");
+            var fixed2 = document.getElementById("fixed2");
+            var fixed1 = document.getElementById("fixed1");
+            var farge = document.getElementById("farge1").value;
+            var adjektiv = document.getElementById("adjektiv1").value;
+            var ting1 = document.getElementById("ting1").value;
+            var verb1 = document.getElementById("verb1").value;
+            var nasjon = document.getElementById("nasjonalitet").value;
+            var substantiv1 = document.getElementById("substantiv1").value;
+            var person1 = document.getElementById("person1").value;
+            var sted1 = document.getElementById("sted1").value;
+            var element = document.getElementById("element1").value;
+            var person2 = document.getElementById("person2").value;
+            var verb2 = document.getElementById("verb2").value;
+            
+            strofe1.innerHTML = "Du " + farge + " " + adjektiv + " " + ting1 + " , god dag!";
+            strofe2.innerHTML = "Velkommen, du som vi " + verb1 + " så gjerne,";
+            strofe3.innerHTML = "med " + ting1 + " og med " + nasjon + " flagg";
+            strofe4.innerHTML = "og høyt i toppen den blanke " + substantiv1;
+            strofe5.innerHTML = "Ja den må skinne";
+            fixed1.innerHTML = "for den skal minne";
+            strofe6.innerHTML = "oss om " + person1;
+            strofe7.innerHTML = "Jeg gikk meg over " + sted1 + " og " + element;
+            strofe8.innerHTML = "der møtte jeg " + person2 ;
+            strofe9.innerHTML = "Jeg spurte så, " + person2 + " svarte så:";
+            fixed2.innerHTML = "Hvor hører du vel hjemme?"
+            strofe10.innerHTML = "Jeg hører hjemme i " + verb2 + "land";
+            strofe11.innerHTML = "i " + verb2 + "land, i " +verb2 + "land";
+            strofe12.innerHTML = "og alle de som " + verb2 + " kan,";
+            strofe13.innerHTML = "de hører hjemme i " + verb2 + "land";
+            
+            
+        };
+        
+        libButton.addEventListener('click', libIt);
+        
+    </script>
 </body>
 </html>
