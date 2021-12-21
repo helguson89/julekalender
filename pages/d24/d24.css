@@ -1,0 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
+
+p{
+margin: 20%;
+font-family: 'Work Sans', sans-serif;
+font-size: x-large;
+color: cornsilk;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(209, 48, 8);
+}
+img{
+    max-width: 500px;
+    height: auto;
+}
